@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: obitron;
+  src: url(/public/fonts/Orbitron-VariableFont_wght.ttf);
+}
+
+body { 
+  font-family: obitron;
+}
+
