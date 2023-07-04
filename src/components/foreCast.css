@@ -12,7 +12,7 @@
     cursor: pointer;
     display: flex;
     font-size: 14px;
-    padding: 5px 20px;
+    padding: 5px 1px;
   }
   
   .icon-small {
@@ -24,18 +24,22 @@
     color: #212121;
     flex: 1 1;
     font-weight: 600;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   
   .description {
     cursor: inherit;
     flex: 1 1;
-    margin-right: 15px;
-    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font: 1px;
+    color: #212121;
   }
   
   .min-max {
     color: #757575;
+    margin-right: 15px;
   }
   
   .daily-details-grid {
@@ -62,5 +66,5 @@
   }
   
   .daily-details-grid-item label:last-child {
-    color: #212121;
+    color: #fff9f9;
   }

@@ -17,7 +17,7 @@ function ForeCast({ data }) {
     <>
       <div className="text-white md:col-span-3 my-2 w-full h-full col-span-5 items-center flex flex-col md:flex-row md:justify-center">
         <div className="w-full mx-14 transition duration-500 ease-in-out transform rounded-lg hover:scale-105 cursor-pointer border b-gray-400 flex flex-col justify-center items-center text-center p-2 bg-black">
-          <label className="title">Daily</label>
+          <label className="title my-2">Daily</label>
           <Accordion allowZeroExpanded>
             {data.list.splice(0, 7).map((item, idx) => (
               <AccordionItem key={idx}>
