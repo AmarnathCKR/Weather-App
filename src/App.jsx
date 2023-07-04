@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div style={styles} className={`w-full ${currentWeather ? "h-screen" : "h-screen"} md:p-20 p-5 text-xs md:text-md`}>
+      <div style={styles} className={`w-full ${currentWeather ? "h-full" : "h-screen"} md:p-20 p-5 text-xs md:text-md`}>
       {loading && <div className="z-40  md:p-64 loader-local bg-secondary"> <PushSpinner size={30} color="#ffff" loading={loading} /></div>}
         <div className="w-full bg-black opacity-70 md:p-10 p-2 rounded-lg h-full">
           <p className="text-white md:text-3xl py-2 text-2xl font-bold text-center">
