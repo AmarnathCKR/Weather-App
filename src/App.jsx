@@ -9,7 +9,7 @@ import { PushSpinner } from "react-spinners-kit";
 function App() {
   const [currentWeather, setWeather] = useState(null);
   const [currentForecast, setForecast] = useState(null);
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("kozhikode");
   const [loading,setLoading] = useState(false)
   
   const styles = {
